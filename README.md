@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-I created it as a repository for the following blog bost:
+I created this repository to guide the following blog bost: https://dev.to/elisabethleonhardt/create-a-custom-error-component-in-nextjs-ssr-csr-4kk9
 
 ## Getting Started
 
@@ -29,4 +29,4 @@ then, navigate to [http://localhost:3000/characters](http://localhost:3000/chara
 
 See comments in pages/locations.js and pages/characters.js, fix the API calls and you will see the data as described in my blog post.
 
-Have fun experimenting with this!!
+Feel free to fork this and experiment a lot! Happy coding!
