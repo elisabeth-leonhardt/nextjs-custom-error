@@ -54,7 +54,7 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  margin-block: 1rem 2rem;
+  margin-block: 2rem;
 }
 
 .locations-container a {
@@ -83,4 +83,14 @@ article {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1rem;
+}
+
+/* styles for the error page */
+
+.error-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

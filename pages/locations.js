@@ -1,14 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link'
+import Error from './_error';
 
 
 function Locations(rops) {
 const [locations, setLocations] = useState({});
 useEffect( () => {
-    fetch("https://rickandmortyapi.com/api/location")
+    // correct locaon to location to fix the app
+    fetch("https://rickandmortyapi.com/api/locaon")
     .then(res => res.json())
     .then(data => setLocations(data));
 }, [])
+
+if(locations.error) {
+    return <Error></Error>
+}
     return (
         <div className="locations-container">
         <Link href="/"><a>Back to home</a></Link>

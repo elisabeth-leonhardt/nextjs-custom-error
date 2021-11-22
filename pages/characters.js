@@ -25,6 +25,7 @@ function Characters(props) {
 export default Characters;
 
 export async function getServerSideProps(context) {
-    const characters  = await fetch("https://rickandmortyapi.com/api/character").then(res => res.json());
+    // correct charter to character to fix the page
+    const characters  = await fetch("https://rickandmortyapi.com/api/charter").then(res => res.json());
     return { props: { characters}}
 }
